@@ -15,6 +15,25 @@ html, body {
 
 .hero-container .navigation {
     display: flex;
+    height: 24px;
     flex: 1;
     justify-content: space-around;
+    align-items: center;
+    padding: 12px;
 }
+
+.hero-container .logo-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero-container .links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 48px;
+}
+
+
+    
+    
