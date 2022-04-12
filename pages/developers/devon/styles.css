@@ -8,11 +8,13 @@ html, body {
 
 .hero-container {
     background-color: #1F2937;
-    display:flex;
-    height:600px;
-   
-
-
+    display: flex;
+    height: 600px; 
+    width: auto;  
 }
 
-
+.hero-container .navigation {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
