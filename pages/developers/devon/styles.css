@@ -34,21 +34,36 @@ html, body {
     display:flex;
     background-color: #1F2937;
     flex: 1 1 auto;
-    justify-content: space-around;
-    padding: 48px;
+    justify-content: center;
+    align-content: center;
+    padding: 120px;
+    gap: 200px;
    
 }
 
 .sign-up {
-    min-width: 200px;
-    min-height: 200px;
-    background-color: blue;
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #1F2937;
+    align-self: center;  
 }
 
-.image {
-    min-width: 200px;
-    min-height: 200px;
-    background-color: red;
+.sign-up .statement {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button .only-fans {
+    margin-top: 8px;
+}
+
+
+img {
+    width: 600px;
+    height: auto;
+    align-items: center;
+    
 }
 
     
