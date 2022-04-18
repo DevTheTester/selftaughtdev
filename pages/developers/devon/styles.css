@@ -37,28 +37,27 @@ html, body {
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
-    padding: 120px;
+    padding:96px 8px 96px 8px;
     gap: 200px;
-   
 }
 
 .sign-up {
     display:flex;
     flex-direction: column;
     width: 400px;
-    background-color: #1F2937;
-    align-self: flex-start;  
+    background-color: #1F2937; 
 }
 
 .sign-up .statement {
     font-size: 48px;
     font-weight: bolder;
+    padding-bottom: 8px;
 }
 
 .only-fans {
     background-color: #3882f6;
     color: #E5E7EB;
-    margin-top : 24px;
+    margin-top : 8px;
     padding: 8px;
     font-size: 18px;
     font-weight: bolder;
@@ -68,9 +67,10 @@ html, body {
 
 
 img {
+
     width: 600px;
     height: auto;
-    align-items: center;
+    align-self: flex-end;
     
 }
 
@@ -130,13 +130,14 @@ img {
 
 .quote {
     padding-top:48px;
-    font-size:36px;
+    font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     
 }
 
 .quotee {
+    padding-top: 4px;
     padding-bottom: 48px;
     font-weight: Bolder;
     align-self: flex-end;
