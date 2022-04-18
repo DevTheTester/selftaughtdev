@@ -79,6 +79,7 @@ img {
 .info {
     display: flex;
     flex-direction: column;
+    padding: 48px;
 }
 
 .info .header {
@@ -114,4 +115,37 @@ img {
     padding: 24px;
     align-self: center;  
     color: #1F2937;
+}
+
+/* Styles quote section of page */
+
+.quote-container {
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding:48px;
+    color:#1F2937;
+
+}
+
+.quote {
+    padding-top:48px;
+    font-size:36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.quotee {
+    padding-bottom: 48px;
+    font-weight: Bolder;
+    align-self: flex-end;
+
+}
+
+.footer {
+    padding-top:4px;
+    background-color: #1F2937;
+    text-align: center;
+    font-weight: bold;
 }
