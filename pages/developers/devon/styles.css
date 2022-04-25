@@ -123,6 +123,7 @@ img {
     display:flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    margin-top:24px;
     padding:48px;
     color:#1F2937;
 
@@ -159,6 +160,6 @@ img {
 }
 
 .projects-container a {
-    padding: 24px;
+    padding: 12px;
     align-self: center;
 }
