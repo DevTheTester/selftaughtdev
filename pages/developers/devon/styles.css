@@ -82,7 +82,7 @@ img {
     padding: 48px;
 }
 
-.info .header {
+.info .header, .projects-container .header {
     font-size: 36px;
     padding:48px;
     font-weight: bolder;
@@ -149,4 +149,16 @@ img {
     background-color: #1F2937;
     text-align: center;
     font-weight: bold;
+}
+
+.projects-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.projects-container a {
+    padding: 24px;
+    align-self: center;
 }
