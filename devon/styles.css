@@ -37,8 +37,8 @@ html, body {
     flex: 1 1 auto;
     justify-content: center;
     align-content: center;
-    padding:96px 8px 96px 8px;
-    gap: 200px;
+    padding:96px;
+    gap: 150px;
 }
 
 .sign-up {
@@ -53,18 +53,6 @@ html, body {
     font-weight: bolder;
     padding-bottom: 8px;
 }
-
-.only-fans {
-    background-color: #3882f6;
-    color: #E5E7EB;
-    margin-top : 8px;
-    padding: 8px;
-    font-size: 18px;
-    font-weight: bolder;
-    width: 200px;
-    border-radius: 6px;
-}
-
 
 img {
 
