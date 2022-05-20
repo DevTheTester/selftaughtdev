@@ -18,11 +18,6 @@ body {
     font-weight:800;
 }
 
-/* background of whole page */
-
-.background {
-    
-}
 /* Styling specific for navigation bar */
 
 .navigation-bar {
@@ -68,7 +63,8 @@ a:visited {
     align-self: center;;
 }
 
-.header-container .header {
+.title {
+    padding-left: 10%;
     color: white;
     font-size: 42px;
 }
