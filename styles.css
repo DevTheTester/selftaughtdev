@@ -7,9 +7,11 @@
     padding: 0;  
 }
 
-html, body {
+body {
     height: 100vh;
     font-family:Arial, Helvetica, sans-serif;
+    background-image: url("img/code.jpg");
+    
 }
 
 .header {
@@ -19,8 +21,7 @@ html, body {
 /* background of whole page */
 
 .background {
-    background-image: url("img/code.jpg");
-    height: 100%;
+    
 }
 /* Styling specific for navigation bar */
 
