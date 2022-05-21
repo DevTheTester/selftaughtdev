@@ -27,6 +27,15 @@ html, body {
     color: #E5E7EB;
     display: flex;
     gap: 48px;
+    font-weight: bold;
+}
+
+.nav-link:visited {
+    color: #E5E7EB;
+}
+
+.nav-link:hover {
+    text-decoration: none;
 }
 
 /* Styles second section of page */
@@ -38,7 +47,7 @@ html, body {
     justify-content: center;
     align-content: center;
     padding:96px;
-    gap: 150px;
+    gap: 108px;
 }
 
 .sign-up {
