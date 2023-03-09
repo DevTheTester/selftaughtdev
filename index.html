@@ -4,26 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devon K-C</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Self Taught Dev</title>
 </head>
 <body>
-    <nav>
-        <div 
-            class="logo">Self Taught Devs
-        </div>
-        <div class="links-container">
-            <a  
-            href="devon/devprofile.html"
-            target="_blank">
-            Devon Campbell
-            </a>
+    <!-- Top navigation bar of site. FLEXBOX -->
+    <nav class="navigation">
+        <!-- FLEX ITEM 1 - LOGO -->
+        <div class="logo-text"><span>s</span>elf <span>t</span>aught <span>d</span>ev</div>
+        <!-- FLEX ITEM 2 - IS A FLEXBOX WITH 3 LINK ITEMS INSIDE -->
+        <div class="links">
             <a 
-            href="storm/storm/stormg.html"
-            target="_blank">
-            Storm G
-            </a> 
+            class="nav-link" 
+            href="https://github.com/DevTheTester"
+            target="_blank">Github</a>
+            <a 
+            class="nav-link" 
+            href="https://twitter.com/SelfTaughtDevon"
+            target="_blank">Twitter</a>
+            <a></a>
         </div>
     </nav>
+    <!--  SECOND main part of hero header -->
+    <section class="main">
+        <!-- LEFT SIDE ITEM CONTAINING SIGN UP, HEADING, PARAGRAPh -->
+        <div class="sign-up">
+            <div class="sign-up-header">Started from the bottom</div>
+            <div class="sign-up-text">Software Tester from Kawerau, just trying to make it out here in this cruel world.</div>
+        
+        </div>
+        <!-- RIGHT SIDE OF ITEM CONTAINING IMAGE -->        
+        <img class="dev-pic" src="img/crop.jpg" alt="Picture of Devon.">        
+    </section>
+    <!-- Second section of page with four images and text underneath all in a row-->
+    <div class="info">
+        <!-- Heading for information cards -->
+        <div class="header">Areas that interests me.</div>
+        <!-- Second item in second section, cards displayed underneath header -->
+        <div class="card-container">
+            <div class="card">
+                <img class="image" src="img/testing.jpg" alt="Lady with microscope">
+                <div class="about">Software Testing</div>
+            </div>
+            <div class="card">
+                <img class="image" src="img/mobile.jpg" alt="Lady on phone">
+                <div class="about">Mobile App Development</div>
+            </div>
+            <div class="card">
+                <img class="image" src="img/game.jpg" alt="Highsore scree">
+                <div class="about">Game Development</div>
+            </div>
+            <div class="card">
+                <img class="image" src="img/html.jpg" alt="Html code">
+                <div class="about">Web Development!</div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects section -->
+    <div class="projects-container">
+        <div class="header">
+            My Projects
+        </div>
+        <a href="https://devthetester.github.io/etch-a-sketch/">Sketch Web App</a>
+    </div>
+    <!-- Quote section of page -->
+    <div class="quote-container">
+        <div class="quote">“The most important things aren’t written in books. You have to learn them by experiencing them yourself.”</div>
+        <div class="quotee">- Sakura Haruno.</div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">Self Taught Limited</div>
 </body>
 </html>

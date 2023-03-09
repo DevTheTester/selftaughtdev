@@ -1,34 +1,172 @@
-/* Style sheet for collaborative parts of website */
-
-* {
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
     margin: 0;
-    padding: 0;  
+    padding: 0;
 }
 
-body { 
-    font-family: sans-serif; 
-    color: #444;
-}
-
-/* NAVIGATION BAR COMPONENT */
-
-nav {
+/* Styles navigation header at top of page */
+.navigation {
+    background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
-    background-color:aliceblue;
-    padding: 8px;
-    font-size: 20px;
+    height: 24px;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
 }
 
-.links-container {
+.logo-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo-text span {
+    color: #FFBF00;
+    text-transform: uppercase;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
     display: flex;
-    gap: 8px;
+    gap: 48px;
+    font-weight: bold;
 }
 
-a:hover {
+.nav-link:visited {
+    color: #E5E7EB;
+}
+
+.nav-link:hover {
     text-decoration: none;
+    color: #FFBF00;
 }
 
-a:visited {
-    color: #444;
+/* Styles second section of page */
+.main {
+    width: 800px;
+    margin: 88px auto;
+    margin-bottom: 48px;
+    display:flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.sign-up {
+    display:flex;
+    flex-direction: column;
+    width: 400px; 
+    justify-content: center;
+}
+
+.sign-up-header{
+    font-size: 64px;
+    font-weight: bolder;
+    padding-bottom: 8px;
+    color: #1F2937;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+.sign-up-text {
+    color: #1F2937;
+    line-height: 1.5;
+}
+
+img {
+    width: 450px; 
+    /* border-radius: 6px; */
+}
+
+/* Styles info section of page */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+
+.info .header, .projects-container .header {
+    font-size: 36px;
+    padding:48px;
+    font-weight: bolder;
+    align-self: center;
+    color:#1F2937;
+}
+    
+.info .card-container {
+    display:flex;
+    justify-content: center;
+    gap:100px;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 20px 50px 10px #00000021;
+}
+
+.card .image {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.card .about {
+    padding: 24px;
+    align-self: center;  
+    color: #1F2937;
+}
+
+/* Styles quote section of page */
+
+.quote-container {
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    margin-top:24px;
+    padding:48px;
+    color:#1F2937;
+
+}
+
+.quote {
+    padding-top:48px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.quotee {
+    padding-top: 4px;
+    padding-bottom: 48px;
+    font-weight: Bolder;
+    align-self: flex-end;
+
+}
+
+.footer {
+    padding-top:4px;
+    background-color: #1F2937;
+    text-align: center;
+    font-weight: bold;
+}
+
+.projects-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.projects-container a {
+    padding: 12px;
+    align-self: center;
 }
